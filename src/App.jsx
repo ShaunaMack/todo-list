@@ -1,5 +1,6 @@
 import { useState } from "react";
 import TodoItem from "./components/TodoItem";
+import TodoForm from "./components/TodoForm";
 
 function App() {
   const [todos, setTodos] = useState([
@@ -14,6 +15,7 @@ function App() {
       {todos.map((todo, index) => (
         <TodoItem text={todo} key={index} />
       ))}
+      <TodoForm />
     </div>
   );
 }
