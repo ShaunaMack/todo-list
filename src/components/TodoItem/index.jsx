@@ -6,7 +6,7 @@ function TodoItem(props) {
   const { todo, completeTodo, index } = props;
 
   return (
-    <div className="todo">
+    <div className={`todo ${todo.isCompleted ? "complete" : ""}`}>
       {todo.text}
       <div>
         <button onClick={() => completeTodo(index)}>Complete</button>
