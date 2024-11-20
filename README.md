@@ -6,5 +6,5 @@ Things to learn through building this app
 - Understand Spread Syntax
 - Understand props and functional arguments
 - Understand the golden rules of React
-- Every React Component must start with a capital letter
-- Every React Component must return only one HTML Element
+  - Every React Component must start with a capital letter & 
+  - Every React Component must return only one HTML Element
