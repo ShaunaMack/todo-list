@@ -1,5 +1,6 @@
-function TodoItem() {
-  return <div>Finish project for Plus.</div>;
+function TodoItem(props) {
+  const { text } = props;
+  return <div>{text}</div>;
 }
 
 export default TodoItem;
